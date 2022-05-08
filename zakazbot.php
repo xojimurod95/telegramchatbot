@@ -1,7 +1,7 @@
 <?php
 include 'Telegram.php';
 
-$telegram = new Telegram("5295272780:AAHuxQUb7UV6V6KsEYh6f_u7vPoMpEYxpt4");
+$telegram = new Telegram('5295272780:AAEqmf_BSf5HjtESko8LxrBy5pwIe5N20JM');
 
 $chat_id = $telegram->ChatID();
 
@@ -9,5 +9,5 @@ $content = array('chat_id'=>$chat_id, 'text'=>'Assalomu aleykum aziz Obunachi, S
 $telegram->sendMessage($content);
 
 // webHook
-// https://api.telegram.org/bot5295272780:AAHuxQUb7UV6V6KsEYh6f_u7vPoMpEYxpt4/setWebhook?url=https://j49803553.myjino.ru/telegrambot/zakazbot.php
+// https://api.telegram.org/bot5295272780:AAEqmf_BSf5HjtESko8LxrBy5pwIe5N20JM/setWebhook?url=https://github.com/xojimurod95/telegramchatbot/edit/main/zakazbot.php
 ?>
