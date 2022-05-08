@@ -1,9 +1,9 @@
 <?php
-include './Telegram.php';
+include 'Telegram.php';
 
 $telegram = new Telegram('5295272780:AAEqmf_BSf5HjtESko8LxrBy5pwIe5N20JM');
 
-$chat_id = $telegram->ChatID();
+$chat_id = $telegram->ChatID('2146587263');
 
 $content = array('chat_id' => $chat_id,
                  'text' => 'Assalomu aleykum aziz Obunachi, Sizga qanday yordam bera olaman');
